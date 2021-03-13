@@ -1,0 +1,29 @@
+div {
+    box-sizing: border-box; /* The width and the height includes the padding and the border */
+    padding: 0 0 50px 0;
+    min-height: 100%;
+    position: relative;
+    text-align: center;
+    border: 2px solid black;
+    background-image: linear-gradient(white, gray);
+}
+
+header {
+    height: 100px;
+    line-height: 100px;
+    border-bottom: 2px solid black;
+}
+
+footer {
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    border-top: 2px solid #000000;
+    padding-bottom: 1%;
+}
+@media screen and (max-width: 600px) {
+    footer{
+        padding-bottom: 5%;
+    }
+}
