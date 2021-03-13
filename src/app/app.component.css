@@ -4,14 +4,14 @@ div {
     min-height: 100%;
     position: relative;
     text-align: center;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     background-image: linear-gradient(white, gray);
 }
 
 header {
     height: 100px;
     line-height: 100px;
-    border-bottom: 2px solid black;
+    /* border-bottom: 2px solid black; */
 }
 
 footer {
@@ -19,7 +19,7 @@ footer {
     position: absolute;
     bottom: 0;
     width: 100%;
-    border-top: 2px solid #000000;
+    /* border-top: 2px solid #000000; */
     padding-bottom: 1%;
 }
 @media screen and (max-width: 600px) {
