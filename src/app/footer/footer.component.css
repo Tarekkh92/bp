@@ -170,7 +170,11 @@
 border-right: 2px solid lightgray;
 line-height: 17px;
   }
+
   @media screen and (max-width: 600px) {
+    #footer > p:first-child, #footer > p:nth-child(2), #footer > p:last-child {
+      font-size: small;
+    }
   #footer{
     padding: 0 1%;
   }
