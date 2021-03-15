@@ -5,19 +5,23 @@
         text-align: left;
         width: 33.3%; 
         margin-top: 2%;
+        height: 150px;
     }
     
     #footer > p:nth-child(2) {
         margin-top: 2%;
         float: left;
         text-align: center;
-        width: 33.4%; }
+        width: 31.4%;
+         }
     
     #footer > p:last-child {
         margin-top: 2%;
         float: right;
         text-align: right;
-        width: 33.3%; }
+        width: 33.3%; 
+        height: 150px;
+      }
 
 #footer
 {
@@ -26,6 +30,7 @@
     max-width: 100%;
     /* border: 2px solid black; */
     height: 300px;
+
     
 }
 .follow{
@@ -154,4 +159,30 @@
   }
   .credits{
     color:lightgray;
+  }
+  .right{
+
+    border-left: 2px solid lightgray;
+    line-height: 17px;
+       
+  }
+  .left{
+border-right: 2px solid lightgray;
+line-height: 17px;
+  }
+  @media screen and (max-width: 600px) {
+  #footer{
+    padding: 0 1%;
+  }
+  .fa{
+    width:15px;
+    padding: 10px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    /* margin: 5px 2px; */
+    border-radius: 50%;
+    height: 50%;
+  }
   }
